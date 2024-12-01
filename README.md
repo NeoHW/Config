@@ -52,6 +52,12 @@ bash -c "$(curl --fail --show-error --silent --location https://raw.githubuserco
 brew install fzf
 ```
 
+### Install zoxide
+```bash
+brew install zoxide
+```
+
+
 ## For manual Installation
 ### Install Powerlevel10k
 ```bash
