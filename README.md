@@ -40,6 +40,19 @@ curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coo
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+## For Script setup for ZSH
+
+### Install Zinit
+```bash
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+```
+
+### Install fzf
+```bash
+brew install fzf
+```
+
+## For manual Installation
 ### Install Powerlevel10k
 ```bash
 brew install powerlevel10k
