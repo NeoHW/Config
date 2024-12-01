@@ -25,6 +25,16 @@
 
 ## Terminal Setup
 
+### Install Iterm2
+```bash
+brew install --cask iterm2
+```
+
+### Install coolnight colour scheme
+```bash
+curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
+```
+
 ### Install Homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
