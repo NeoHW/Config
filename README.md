@@ -89,6 +89,10 @@ brew install zsh-syntax-highlighting
 
 ---
 
+## Productivity Apps Setup
+- Raycast
+- Hiddenbar
+
 ## VS Code Setup
 
 ### Theme
