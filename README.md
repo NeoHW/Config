@@ -25,6 +25,11 @@
 
 ## Terminal Setup
 
+### Install Homebrew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### Install Iterm2
 ```bash
 brew install --cask iterm2
@@ -33,11 +38,6 @@ brew install --cask iterm2
 ### Install coolnight colour scheme
 ```bash
 curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/coolnight.itermcolors --output ~/Downloads/coolnight.itermcolors
-```
-
-### Install Homebrew
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## For Script setup for ZSH
@@ -86,6 +86,11 @@ brew install zsh-autocomplete
 ```bash
 brew install zsh-syntax-highlighting
 ```
+
+---
+### Enable natural text editing for iterm2
+* Iterm2-Settings-Profile-keys-presets...-natural text editing  
+[Link to issue](https://gist.github.com/seachai/948ed1eeafa32ce03db6685edb879f71)
 
 ---
 
