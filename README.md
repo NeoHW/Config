@@ -130,3 +130,156 @@ brew install zsh-syntax-highlighting
 - Database Navigator
 
 ---
+
+### Karabiner rule for home row mods (if needed)
+```bash
+{
+    "description": "Home Row Mods - Shift on F/J, Command on D/K, Option on S/L, Control on A/;",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "f",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "left_shift",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "f" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "j",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "right_shift",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "j" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "left_command",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "d" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "k",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "right_command",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "k" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "s",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "left_option",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "s" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "right_option",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "l" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "a",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "left_control",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "a" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": { "optional": ["any"] }
+            },
+            "parameters": {
+                "basic.to_delayed_action_delay_milliseconds": 30,
+                "basic.to_if_held_down_threshold_milliseconds": 30
+            },
+            "to": [
+                {
+                    "key_code": "right_control",
+                    "lazy": true
+                }
+            ],
+            "to_if_alone": [{ "key_code": "semicolon" }],
+            "type": "basic"
+        }
+    ]
+}
+```
