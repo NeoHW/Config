@@ -135,6 +135,7 @@ brew install zsh-syntax-highlighting
 ```bash
 alias gst='git status'
 alias gl='git pull'
+alias ga='git add'
 alias gp='git push'
 alias gd='git diff | mate'
 alias gau='git add --update'
